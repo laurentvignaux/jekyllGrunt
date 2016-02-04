@@ -1,0 +1,26 @@
+title: Mon Jekyll test grunt
+email: mailbox@lvdesign.com.fr
+description: "Mon dev --- -- --It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description."
+baseurl: /jekyllGrunt
+
+
+twitter_username: lvdesign
+github_username:  laurentvignaux
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+  .git,
+  .gitignore,
+  .DS_Store,
+  svg-icons,
+  svg-decorations,
+  scss,
+  .sass-cache,
+  package.json, 
+  Gruntfile.js, 
+  node_modules, 
+  readme.md
+]

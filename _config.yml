@@ -13,8 +13,23 @@ description: "It will appear in your document head meta (for
 baseurl: /jekyllGrunt # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: lvdesign
+github_username:  laurentvignaux
 
 # Build settings
 markdown: kramdown
+
+
+exclude: [
+  .git,
+  .gitignore,
+  .DS_Store,
+  svg-icons,
+  svg-decorations,
+  scss,
+  .sass-cache,
+  package.json, 
+  Gruntfile.js, 
+  node_modules, 
+  readme.md
+]
